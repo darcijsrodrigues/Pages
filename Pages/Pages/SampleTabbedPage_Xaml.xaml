@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="Pages.SampleTabbedPage_Xaml">
+	<TabbedPage.Children>
+        <ContentPage Title="1ª" Icon="icon.png">
+          <StackLayout>
+            <Label Text="Page one" FontSize="18" TextColor="Green" FontFamily="HelveticaNeue-Medium"></Label>
+          </StackLayout>
+        </ContentPage>
+        <ContentPage Title="2ª" Icon="icon.png">
+          <StackLayout>
+            <Label Text="Page two" FontSize="18" TextColor="Green" FontFamily="HelveticaNeue-Medium"></Label>
+          </StackLayout>
+        </ContentPage>
+        <ContentPage Title="3ª" Icon="icon.png">
+          <StackLayout>
+            <Label Text="Page three" FontSize="18" TextColor="Green" FontFamily="HelveticaNeue-Medium"></Label>
+          </StackLayout>
+        </ContentPage>
+        <ContentPage Title="4ª" Icon="icon.png">
+          <StackLayout>
+            <Label Text="Page four" FontSize="18" TextColor="Green" FontFamily="HelveticaNeue-Medium"></Label>
+          </StackLayout>
+        </ContentPage>
+        <ContentPage Title="5ª" Icon="icon.png">
+          <StackLayout>
+            <Label Text="Page five" FontSize="18" TextColor="Green" FontFamily="HelveticaNeue-Medium"></Label>
+          </StackLayout>
+        </ContentPage>
+        <ContentPage Title="6ª" Icon="icon.png">
+          <StackLayout>
+            <Label Text="Page six" FontSize="18" TextColor="Green" FontFamily="HelveticaNeue-Medium"></Label>
+          </StackLayout>
+        </ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

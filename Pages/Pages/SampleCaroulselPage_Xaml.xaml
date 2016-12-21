@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CarouselPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			  x:Class="Pages.SampleCaroulselPage_Xaml">
+	<ContentPage>
+		<ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness" iOS="0,20,0,0" Android="0,0,0,0" />
+        </ContentPage.Padding>
+		<StackLayout Orientation="Vertical" BackgroundColor="#3498db" >
+			<Entry Placeholder = "Digite seu nome" Keyboard="Email" PlaceholderColor="Black" BackgroundColor="Silver" />
+			<Label Text="First Page" FontSize="15" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+		</StackLayout>
+	</ContentPage>
+	<ContentPage>
+		<ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness" iOS="0,10,0,0" Android="0,0,0,0" />
+        </ContentPage.Padding>
+		<StackLayout Orientation="Vertical" BackgroundColor="Yellow">
+			<Label Text="Second Page" FontSize="15" TextColor="Black" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+		</StackLayout>
+	</ContentPage>
+	<ContentPage>
+		<ContentPage.Padding>
+            <OnPlatform x:TypeArguments="Thickness" iOS="0,10,0,0" Android="0,0,0,0" />
+        </ContentPage.Padding>
+		<StackLayout Orientation="Vertical" BackgroundColor="Red">
+			<Label Text="Third Page" FontSize="15" TextColor="White" VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"/>
+		</StackLayout>
+	</ContentPage>	
+</CarouselPage>

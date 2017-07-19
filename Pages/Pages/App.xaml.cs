@@ -16,6 +16,7 @@ namespace Pages
 			//MainPage = new NavigationPage(new SampleNavigationPage_Xaml());
 			//MainPage = new SampleTabbedpage_CSharp();
 			//MainPage = new SampleTabbedPage_Xaml();
+			// MainPage = new SampleMasterDetailPage_CSharp();
 			MainPage = new SampleMasterDetailPage_CSharp();
 
 		}
